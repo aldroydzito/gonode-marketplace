@@ -1,0 +1,19 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <strong>Olá, {{ ad.author.name }}</strong>
+  <p>Você tem uma nova solicitação para o anúncio <strong>{{ ad.title }}</strong></p>.
+  <br>
+  <strong>{{ user.name }}</strong> ({{ user.email }}):
+  <p>{{ content }}</p>
+</body>
+
+</html>
